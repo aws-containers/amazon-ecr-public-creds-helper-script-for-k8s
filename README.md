@@ -1,3 +1,7 @@
+# Archived
+
+### This repository was archived as Amazon ECR Public today handles all image pull requests sent from workloads on AWS compute as `authenticated` requests.
+
 # Amazon ECR "Public" credentials helper script for Kubernetes
 
 Amazon ECR "Public" credentials helper script for Kubernetes (`ecr-public-creds-helper-for-k8s` for short) allows your Kubernetes clusters pull public container images from [Amazon ECR Public](https://aws.amazon.com/blogs/aws/amazon-ecr-public-a-new-public-container-registry/) registries **as authenticated users** to get the limit upgraded to `10` pulls per second which is `1` for unauthenticated users as described [here](https://docs.aws.amazon.com/AmazonECR/latest/public/public-service-quotas.html), and unlimited data bandwidth as described [here](https://aws.amazon.com/ecr/pricing/).
